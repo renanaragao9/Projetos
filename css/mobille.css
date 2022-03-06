@@ -1,0 +1,45 @@
+/* Smartphone */
+
+@media only screen and (max-width: 700px){
+    .header img {
+        margin-left: 69px;
+
+    }
+
+    .header {
+        position: relative;
+        height: 390px;
+        text-align: center;
+
+    }
+    .topo {
+        text-align: center;
+        
+    }
+
+    .topo ul li a{
+        display: inline-block;
+        float: center;
+        border: 3px solid yellow;
+        width: 220px;
+        padding: 10px;
+
+    }
+
+    /*banner */
+
+    .banner h1 {
+        font-size: 35px;
+        margin-top: -1px;
+        margin-top: 40px;
+    }
+
+    .banner a{
+        font-size: 17px;
+        
+        
+    }
+    .banner {
+        background: url(../img/barrr.jpeg);
+    }
+}

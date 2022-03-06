@@ -1,0 +1,482 @@
+/*fontes externas */
+@font-face {
+    font-family: york;
+    src: url(../font/OldeEnglish.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@300;400;700&family=Oswald:wght@400;700&display=swap');
+
+:root{
+    --fonte-padrao:'Oswald', sans-serif;
+    --fonte-padraolato: 'Lato', sans-serif;
+}
+
+
+
+body {
+    background-image: linear-gradient(to bottom, gold, rgb(1, 1, 46), black);
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.one {
+    width: 100%;
+    height: 4px;
+    background: #030024;
+}
+
+.header {
+    background: url(../img/madeira\ 2.jpg);
+    min-height: 150px;     
+    padding-top: 5px;
+    
+    
+}
+#img{
+    float: left;
+}
+
+.topo {
+    text-align: right;
+}
+
+.topo ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+
+.topo ul li a {
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-decoration: none;
+    
+    
+}
+
+.topo ul li a:hover{
+    color: yellow;
+}
+
+
+/* Banner do site */
+
+main {
+    background-color: white;  /* cor de fundo */
+    min-width: 300px;   /* largura mínima */
+    max-width: 1000px;  /* largura maxima */
+    margin: auto;  /* margem */ 
+    margin-bottom: 30px;  /* margem inferior */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);  /* Sombra da caixa */
+    border-bottom-left-radius:  10px;  /* borda-inferior-esquerda-raio */
+    border-bottom-right-radius: 10px;  /* borda-inferior-direita-raio*/
+} 
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    background: url(../img/1d4804e3de44f3cc65ad8fe9a58c32ae_ESPETINHOS-RECEITAS-NESTLE_1200_600.jpg);
+}
+.banner h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 110px;
+    text-shadow: black 2px 2px 10px;
+    margin-bottom: 50px;
+}
+
+.banner a {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 20px;
+    width: 50px;
+    color: white;
+    background: orangered;
+    border-radius: 10px;
+    text-decoration: none;
+    
+
+}
+
+.banner a:hover{
+    background: yellow;
+    color: black;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 10px;
+}
+
+/* Combos de Petiscos */
+
+.petiscos {
+    background: url(../img/madeira\ 2.jpg); 
+}
+
+.petiscos h2 {
+    margin-top: 75px;
+    font-family: var(--fonte-padrao);
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 81, 0);
+
+}
+
+.petiscos p {
+    font-family: var(--fonte-padraolato);
+    font-size: 24px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px;
+
+}
+
+.petiscos2 {
+    background: url(../img/madeira\ 2.jpg);
+    }
+    
+    .petiscos2 h2 {
+        margin-top: 75px;
+        font-family: var(--fonte-padrao);
+        font-size: 45px;
+        text-align: center;
+        color: rgb(255, 81, 0);
+    
+    }
+    
+    .petiscos2 p {
+        font-family: var(--fonte-padraolato);
+        font-size: 24px;
+        color: #f2e41b;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 7px;
+    
+    }
+
+.combo {
+    margin-top: 75px;
+}
+
+.combo li {
+    font-family: var(--fonte-padraolato);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.combo img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    cursor: pointer;
+    
+}
+
+.combo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.combo h3 {
+    background: #351c03;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+.combo p{
+    font-family: var(--fonte-padraolato);
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: initial;
+    text-align: center;
+    padding: 7px;
+
+}
+
+.combo h4 a {
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    line-height: 65px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.combo h4 a:hover {
+    background-color: #030024;
+    color: white;
+    transition: 0.8 all;
+}
+
+/* Slide */
+
+.slide {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+.slide h3 {
+    margin-top: 75px;
+    font-family: var(--fonte-padrao);
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 81, 0);
+    margin-bottom: 70px;
+   
+    
+}
+
+.slide p{
+    font-family: var(--fonte-padraolato);
+    font-size: 24px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+    
+    padding: 7px;
+}
+
+.itens{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 70px;
+    
+
+}
+
+.itens img {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+
+.slide {
+    flex: none;
+    
+}
+
+
+/*  resenha parte 1  */
+.slide2 {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+.slide2 h1 {
+    margin-top: 75px;
+    font-family: york;
+    font-size: 88px;
+    text-align: center;
+    color: rgb(255, 81, 0);
+    
+}
+
+.slide2 p{
+    font-family: var(--fonte-padraolato);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 7px;
+}
+
+.itens2{
+    display: flex;
+    overflow-x: auto;
+    
+
+}
+
+.itens2 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+/*  resenha parte 3 do slide*/
+.slide3 {
+    flex: none;
+    
+}
+
+
+.slide3 {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+.itens3{
+    display: flex;
+    overflow-x: auto;
+    
+
+}
+
+.itens3 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+
+.slide3 {
+    flex: none;
+    
+}
+
+/* resenha parte 4 do slide */
+.slide4 {
+    flex: none;
+    
+}
+
+
+.slide4 {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+.itens4 {
+    display: flex;
+    overflow-x: auto;
+    
+
+}
+
+.itens4 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+
+.slide4 {
+    flex: none;
+    
+}
+
+/* fim da resenha */
+
+/* Localização */
+
+.localizacao {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+.localizacao h2 {
+    margin-top: 75px;
+    font-family: var(--fonte-padrao);
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 81, 0);
+    
+}
+
+.localizacao p {
+    font-family: var(--fonte-padraolato);
+    font-size: 10px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 7px;
+}
+
+.localizacao2{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.localizacao {
+    text-align: center;
+}
+
+.localizacao a img {
+    padding: 20px;
+    
+    
+}
+
+.rede h1 {
+    font-size: 50px;
+    font-family: var(--fonte-padrao);
+    color: orangered;
+    margin-bottom: 20px;
+
+}
+.rede a{
+    font-size: 100px;
+    color: gold;
+    
+}
+
+
+
+/* Rodapé */
+
+.footer {
+width: 100%;
+height: 130px;
+background-color: #030024;
+} 
+
+
+.footer h3, p{
+   font-family: var(--fonte-padrao);
+   font-size: 1.0em;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   
+   
+    
+}
+
+.footer a{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+ /*Scrollbar */
+
+::-webkit-scrollbar
+::-webkit-scrollbar-thumb
+
+::-webkit-scrollbar-track {
+    background: url(../img/madeira\ 2.jpg);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #271402;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #271402;
+}
+
