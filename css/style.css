@@ -28,7 +28,7 @@ img {
 }
 
 .header {
-    background: url(../img/madeira\ 2.jpg);
+    background-color: #030024;
     min-height: 150px;     
     padding-top: 5px;
     
@@ -284,7 +284,7 @@ main {
 .slide2 h1 {
     margin-top: 75px;
     font-family: york;
-    font-size: 88px;
+    font-size: 70px;
     text-align: center;
     color: rgb(255, 81, 0);
     
@@ -292,7 +292,7 @@ main {
 
 .slide2 p{
     font-family: var(--fonte-padraolato);
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -396,7 +396,7 @@ main {
     color: #f2e41b;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 70px;
+    
     padding: 7px;
 }
 
