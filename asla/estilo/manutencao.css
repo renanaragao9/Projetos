@@ -1,0 +1,19 @@
+.tabela {
+    width: 80%;
+    text-align: center;   
+}
+
+.tabela tr:nth-child(2n -1) {
+    background: #ccc;
+}
+
+.tabela td{
+    width: 100px;
+    padding: 15px;
+}
+.tabela th{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    
+}

@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: montserrat;
+}
+nav {
+	background:  #3c3c3c;
+	height: 80px;
+	width: 100%;
+}
+label.logo {
+	color: white;
+	margin-left: 180px;
+	
+	
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a:active, a:hover {
+	background: rgba(139, 238, 139, 0.664);
+	transition: .5s;
+}
+.check{
+		font-size: 30px;
+		float: right;
+		line-height: 30px;
+		margin-right: 40px;
+		display: none;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+    position: absolute;
+	opacity: 0;
+  }
+  
+  label.checkbtn{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+	margin-top: 30px;
+	display: none;
+	
+  }
+  
+  label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: white;
+    transition: 0.25s ease-in-out;
+  }
+  
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 8px;
+  }
+  
+  label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #check:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  
+  #check:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #check:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+  }
+  /* CORPO DO SITE */
+  
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+		left: 80px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	label.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 50%;
+		height: 100vh;
+		background: #3c3c3c;
+		top: 80px;
+		right: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a:active {
+		background: none;
+		color: #5434af;
+	}
+	#check:checked ~ ul {
+		right: -20px;
+	}
+
+	label.logo {
+		color: white;
+		margin-left: -108px;
+		
+		
+	}
+}
